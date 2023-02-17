@@ -2,10 +2,6 @@
 
 int gcd(int a, int b) {
         int res;
-        if (a < 0)
-                a *= -1;
-        if (b < 0)
-                b *= -1;
         while (a != b) {
                 if (a > b)
                         a - a - b;
