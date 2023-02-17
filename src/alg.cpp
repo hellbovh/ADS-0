@@ -1,7 +1,7 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int a, int b) {
-        int res;
+        int res = 1;
         if (a < 0)
                 a *= -1;
         if (b < 0)
