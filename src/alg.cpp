@@ -6,8 +6,7 @@ int gcd(int a, int b) {
                 a *= -1;
         if (b < 0)
                 b *= -1;
-        while (a != b)
-        {
+        while (a != b) {
                 if (a > b)
                         a - a - b;
                 else
